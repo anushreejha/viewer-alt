@@ -16,5 +16,9 @@
     "ui": "@/components/ui",
     "lib": "@/lib",
     "hooks": "@/hooks"
+  },
+  "materialUI": {
+    "config": "material-ui.config.ts",
+    "css": "src/material-ui.css"
   }
 }
