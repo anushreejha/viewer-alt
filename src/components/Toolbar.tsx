@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Box, IconButton, Typography, Tooltip, Paper } from '@mui/material';
 import ZoomInIcon from '@mui/icons-material/ZoomIn';
@@ -32,12 +31,11 @@ const Toolbar: React.FC<ToolbarProps> = ({
   onClearHighlights,
   totalHighlights,
 }) => {
-  // Color palette for highlighters
   const colorMap = {
-    yellow: '#FEF7CD',
-    blue: '#D3E4FD',
-    green: '#F2FCE2',
-    pink: '#FFDEE2',
+    yellow: '#EAB308', 
+    blue: '#60A5FA',   
+    green: '#A3E635',  
+    pink: '#FB7185',   
   };
 
   return (

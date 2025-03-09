@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -115,19 +114,19 @@ body {
 }
 
 .highlight.yellow {
-  background-color: #FEF7CD;
+  background-color: #EAB308; 
 }
 
 .highlight.blue {
-  background-color: #D3E4FD;
+  background-color: #60A5FA; 
 }
 
 .highlight.green {
-  background-color: #F2FCE2;
+  background-color: #A3E635;
 }
 
 .highlight.pink {
-  background-color: #FFDEE2;
+  background-color: #FB7185; 
 }
 
 /* Fix for react-pdf text layer */
